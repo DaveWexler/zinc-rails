@@ -1,0 +1,8 @@
+<h1>Welcome to the Macbeth Line counter!</h1>
+
+<h3>Please enter the link for the Macbeth XML file here:</h3>
+
+<%= form_tag characters_path do %>
+  <%= text_field_tag :file %>
+  <%= submit_tag('submit') %>
+<% end %>

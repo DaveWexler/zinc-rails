@@ -1,0 +1,14 @@
+<h1>Here are the characters and the number of lines they each have. Thanks!</h1>
+
+<table>
+  <tr>
+    <th>Character</th>
+    <th>Lines</th>
+  </tr>
+  <% @characters.each do |char| %>
+  <tr>
+    <td><%= char.name %></td>
+    <td><%= char.lines %></td>
+  </tr>
+  <% end %>
+</table>
